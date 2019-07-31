@@ -1,0 +1,81 @@
+= 1.1.0 =
+- Added: New demo, Bakery: https://bakery.oceanwp.org/
+- Added: New demo, Corporate: https://corporate.oceanwp.org/
+- Added: New demo, Destination: https://destination.oceanwp.org/
+- Added: New demo, Event: https://event.oceanwp.org/
+- Added: New demo, Lauren: https://lauren.oceanwp.org/
+- Added: New demo, One Store: https://onestore.oceanwp.org/
+- Added: New demo, Outfits: https://outfits.oceanwp.org/
+- Added: New demo, Simply: https://simply.oceanwp.org/
+- Added: New demo, Studio: https://studio.oceanwp.org/
+
+= 1.0.11 =
+- Tweak: Import demo improved.
+
+= 1.0.10 =
+- Added: New demo, Hairdresser: https://hairdresser.oceanwp.org/
+- Added: New demo, Pizza: https://pizza.oceanwp.org/
+- Added: New demo, SEO Consulting: https://consulting.oceanwp.org/
+- Added: New demo, Skate: https://skate.oceanwp.org/
+- Added: New demo, Veggie: https://veggie.oceanwp.org/
+- Added: New demo, Nails: https://nails.oceanwp.org/
+- Added: New demo, Make Up Artist: https://makeup.oceanwp.org/
+- Added: New demo, Skyscraper: https://skyscraper.oceanwp.org/
+- Added: New demo, Tech: https://tech.oceanwp.org/
+- Added: New demo, Portfolio: https://portfolio.oceanwp.org/
+- Added: New demo, Interior Design: https://interior.oceanwp.org/
+- Added: New demo, Surfing: https://surfing.oceanwp.org/
+- Added: New demo, Service: https://service.oceanwp.org/
+- Added: New demo, Music: https://music.oceanwp.org/
+- Added: New demo, Photo: https://photo.oceanwp.org/
+- Added: New demo, Cycle: https://cycle.oceanwp.org/
+- Added: New demo, Agency: https://agency.oceanwp.org/
+- Added: New demo, Charity: https://charity.oceanwp.org/
+- Added: New demo, Fitness: https://fitness.oceanwp.org/
+- Added: New demo, Inspire: https://inspire.oceanwp.org/
+- Added: New demo, Design: https://design.oceanwp.org/
+- Added: New demo, Style: https://style.oceanwp.org/
+- Added: New demo, Learn: https://learn.oceanwp.org/
+- Added: New demo, Simple Blog: https://simpleblog.oceanwp.org/
+- Added: New demo, Street Food: https://streetfood.oceanwp.org/
+- Added: New setting to import the contact form.
+- Fixed: Import issue with the contact form of the demos.
+
+= 1.0.9 =
+- Added: New demo, Barber Shop: https://barber.oceanwp.org/
+- Added: New demo, Bright Homes: https://bright.oceanwp.org/
+- Added: New demo, Computer Repair: https://computer.oceanwp.org/
+- Added: New demo, Florist: https://florist.oceanwp.org/
+- Added: New demo, Scuba Diving: https://scuba.oceanwp.org/
+- Added: New demo, Freelance Designer: https://freelance.oceanwp.org/
+
+= 1.0.8 =
+- Tweak: Contact Forms 7 replaced by WPForms which is a much better and flexible form plugin.
+
+= 1.0.7 =
+- Added: New demo School: https://school.oceanwp.org/
+
+= 1.0.6 =
+- Added: New demo Book: https://book.oceanwp.org/
+- Added: Polish translation, thanks to Fin Fafarafiel.
+
+= 1.0.5 =
+-Added: Now you will have two steps to import a demo, in the second step, you will be able to import only the XML file and/or the customizer settings and/or the widgets.
+-Added: All free demos, so you don't need to have the Ocean Demo Import plugin anymore if you use this plugin.
+-Tweak: Much better approch to import a demo, now you just need to click the demo you want to import, install the required plugins and wait for the import.
+
+= 1.0.4 =
+- Added: New demo Shoes: https://shoes.oceanwp.org/
+- Added: New demo Wedding: https://wedding.oceanwp.org/
+
+= 1.0.3 =
+- Added: New demo: https://coffee.oceanwp.org/
+
+= 1.0.2 =
+- Deleted: Admin notice if OceanWP is not the theme used.
+
+= 1.0.1 =
+- Updated: Restaurant demo files.
+
+= 1.0.0 =
+- Initial release.

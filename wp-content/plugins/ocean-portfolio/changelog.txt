@@ -1,0 +1,72 @@
+= 1.1.8 =
+- Added: Title tag for the single item title.
+
+= 1.1.7 =
+- Added: Layout setting for the archive and taxonomies pages.
+- Tweak: Correct page title added for the breadcrumb.
+
+= 1.1.6 =
+- Fixed: Wrong image displayed on the lightbox.
+- Fixed: Lightbox issue on portfolio taxonomy.
+- Fixed: Buttons after the footer on single portfolio items.
+
+= 1.1.5 =
+- Fixed: Issue with lightbox script on single portfolio items.
+
+= 1.1.4 =
+- Fixed: Taxonomy issue for Order and Orderby settings.
+- Fixed: Issue with Elementor Themer.
+
+= 1.1.3 =
+- Fixed: Search issue.
+
+= 1.1.2 =
+- Tweak: French translation updated, thanks to Julien Roussel.
+- Added: Polish translation, thanks to Fin Fafarafiel.
+- Tweak: Better approch for calling the metabox scripts.
+
+= 1.1.1 =
+- Added: Added translation for the lightbox texts so now you can translate the words of the PhotoSwipe lightbox.
+
+= 1.1.0 =
+- Added: Two new settings to disable the link or lightbox icon.
+- Added: Settings to choose if you want to open the portfolio item or a lightbox to the image click.
+- Added: PhotoSwipe instead of Magnific Popup, much better lightbox script for photographers, so the Mgnific Poup scripts are removed from the portfolio pages, no need to have two lightbox scripts.
+- Added: New setting for the shortcode creation to allow you to disable the MagnificPopup lightbox script on th epage where you will add the portfolio shortcode.
+- Added: SEO markups.
+
+= 1.0.9 =
+- Added: Filter "op_portfolio_all_text" for the All text in the filter to allow you to add what you want via a child theme.
+
+= 1.0.8 =
+- Added: New field in the OceanWP Settings metabox to add a portfolio item external URL.
+- Added: New field to add a target to your portfolio item external URL.
+- Fixed: Issue with the lightbox script.
+- Deleted: Admin notice if OceanWP is not the theme used.
+
+= 1.0.7 =
+- Fixed: Capabilities issue in the metabox.
+
+= 1.0.6 =
+- Tweak: Remove Chocolat script.
+
+= 1.0.5 =
+- Added: Both Sidebars layout in the customizer for the single items.
+- Fixed: Issue with the social sharing buttons.
+- Fixed: Issue with color fields.
+
+= 1.0.4 =
+- Tweak: Schema markup.
+- Added: French translation, thanks a lot to Jean of freepixel.net.
+
+= 1.0.3 =
+- Fixed: The Shortcode metabox on the Shortcodes post type doesn't display on some hosts.
+
+= 1.0.2 =
+- Fixed: Sanitize value issue for some fields.
+
+= 1.0.1 =
+- Fixed: Error 500 on some host.
+
+= 1.0.0 =
+- Initial release.

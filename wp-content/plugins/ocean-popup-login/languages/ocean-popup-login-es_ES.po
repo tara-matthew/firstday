@@ -1,0 +1,413 @@
+# Copyright (C) 2016
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ocean Popup Login\n"
+"Report-Msgid-Bugs-To: https://oceanwp.org/support/\n"
+"POT-Creation-Date: 2018-01-17 19:05+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-03-31 04:18+0000\n"
+"Last-Translator: contacto@elclosetlgbt.com <contacto@elclosetlgbt.com>\n"
+"Language-Team: Español\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _esc_attr__;esc_attr_x;esc_attr_e;esc_html__;"
+"esc_html_e;esc_html_x;__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: es-ES\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#: ocean-popup-login.php:151 ocean-popup-login.php:160
+msgid "Cheatin&#8217; huh?"
+msgstr "¿Engañando, eh?"
+
+#: ocean-popup-login.php:190 ocean-popup-login.php:192 
+#: ocean-popup-login.php:194 ocean-popup-login.php:321 template/popup.php:39
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: ocean-popup-login.php:191 ocean-popup-login.php:193 
+#: ocean-popup-login.php:195 ocean-popup-login.php:337 template/popup.php:41
+msgid "Become a part of our community!"
+msgstr "¡Se parte de nuestra comunidad!"
+
+#: ocean-popup-login.php:241
+msgid "Popup Login"
+msgstr "Popup de inicio de sesión"
+
+#: ocean-popup-login.php:255
+msgid "Position"
+msgstr "Posición"
+
+#: ocean-popup-login.php:256
+#, php-format
+msgid "If you choose Manual, check this %1$sdocumentation%2$s."
+msgstr "Si seleccionas Manual, checa esta %1$sdocumentación%2$s."
+
+#: ocean-popup-login.php:261
+msgid "Menu"
+msgstr "Menú"
+
+#: ocean-popup-login.php:262
+msgid "Manual"
+msgstr "Manual"
+
+#: ocean-popup-login.php:275
+msgid "Logged In"
+msgstr "Sesión iniciada"
+
+#: ocean-popup-login.php:276
+msgid "Display this when user logged in."
+msgstr "Mostrar esto cuando el usuario haya iniciado sesión."
+
+#: ocean-popup-login.php:281
+msgid "Display nothing"
+msgstr "Mostrar nada"
+
+#: ocean-popup-login.php:282
+msgid "Logout link"
+msgstr "Enlace cerrar sesión"
+
+#: ocean-popup-login.php:283
+msgid "Custom"
+msgstr "Personalizado"
+
+#: ocean-popup-login.php:297
+msgid "Custom Text"
+msgstr "Texto personalizado"
+
+#: ocean-popup-login.php:312
+msgid "Login Form"
+msgstr "Formulario inicio sesión"
+
+#: ocean-popup-login.php:327 ocean-popup-login.php:372 
+#: ocean-popup-login.php:417
+msgid "Title"
+msgstr "Título"
+
+#: ocean-popup-login.php:343 ocean-popup-login.php:388 
+#: ocean-popup-login.php:433
+msgid "Content"
+msgstr "Contenido"
+
+#: ocean-popup-login.php:357
+msgid "Register Form"
+msgstr "Formulario registro"
+
+#: ocean-popup-login.php:366 template/popup.php:43
+msgid "Create an account"
+msgstr "Crear una cuenta"
+
+#: ocean-popup-login.php:382 template/popup.php:45
+msgid "Welcome! Register for an account"
+msgstr "¡Bienvenido! Registrarse para una cuenta"
+
+#: ocean-popup-login.php:402
+msgid "Lost Password Form"
+msgstr "Formulario contraseña olvidada"
+
+#: ocean-popup-login.php:411 template/popup.php:47
+msgid "Reset password"
+msgstr "Restablecer contraseña"
+
+#: ocean-popup-login.php:427 template/popup.php:49
+msgid "Recover your password"
+msgstr "Recuperar tu contraseña"
+
+#: ocean-popup-login.php:447
+msgid "Styling"
+msgstr "Estilo"
+
+#: ocean-popup-login.php:462
+msgid "Skins"
+msgstr ""
+
+#: ocean-popup-login.php:466
+msgid "Light"
+msgstr "Claro"
+
+#: ocean-popup-login.php:467
+msgid "Dark"
+msgstr "Oscuro"
+
+#: ocean-popup-login.php:490
+msgid "Width (px)"
+msgstr "Ancho (px)"
+
+#: ocean-popup-login.php:572
+msgid "Padding (px)"
+msgstr "Relleno (px)"
+
+#: ocean-popup-login.php:662
+msgid "Border Radius (px)"
+msgstr "Radio del borde (px)"
+
+#: ocean-popup-login.php:695
+msgid "Background Image"
+msgstr "Imagen de fondo"
+
+#: ocean-popup-login.php:714
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: ocean-popup-login.php:729
+msgid "Title Color"
+msgstr "Color de título"
+
+#: ocean-popup-login.php:744
+msgid "Content Color"
+msgstr "Color del contenido"
+
+#: ocean-popup-login.php:759
+msgid "Input Color"
+msgstr "Color entrada"
+
+#: ocean-popup-login.php:774
+msgid "Input Border Color"
+msgstr "Color del borde de entrada"
+
+#: ocean-popup-login.php:789
+msgid "Input Border Focus Color"
+msgstr "Color de enfoque de borde de entrada"
+
+#: ocean-popup-login.php:804
+msgid "Remember Me Color"
+msgstr "Color mantener mi sesión activa"
+
+#: ocean-popup-login.php:819
+msgid "Button Background Color"
+msgstr ""
+"Color de fondo del botón\n"
+" \n"
+
+#: ocean-popup-login.php:834
+msgid "Button Background Color Hover"
+msgstr ""
+
+#: ocean-popup-login.php:849
+msgid "Button Color"
+msgstr "Color del botón"
+
+#: ocean-popup-login.php:864
+msgid "Forgot Password Color"
+msgstr "Color contraseña olvidada"
+
+#: ocean-popup-login.php:879
+msgid "Bottom Background Color"
+msgstr "Color de fondo inferior"
+
+#: ocean-popup-login.php:894
+msgid "Bottom Color"
+msgstr "Color de fondo"
+
+#: ocean-popup-login.php:909
+msgid "Bottom Button Background Color"
+msgstr "Color de fondo del botón inferior"
+
+#: ocean-popup-login.php:924
+msgid "Bottom Button Color"
+msgstr "Color del botón inferior"
+
+#: ocean-popup-login.php:961 ocean-popup-login.php:1001
+msgid "Sign in / Join"
+msgstr "Iniciar sesión"
+
+#: ocean-popup-login.php:964 ocean-popup-login.php:1004
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: ocean-popup-login.php:1052 ocean-popup-login.php:1091 
+#: ocean-popup-login.php:1192
+msgid "Session token has expired, please reload the page and try again"
+msgstr ""
+"El token de sesión ha caducado, vuelve a cargar la página y vuelve a "
+"intentarlo"
+
+#: ocean-popup-login.php:1057 ocean-popup-login.php:1197
+msgid "Please fill all form fields"
+msgstr "Por favor complete todos los campos del formulario"
+
+#: ocean-popup-login.php:1066
+msgid "ERROR: Username or password incorrect!"
+msgstr "ERROR: Usuario o contraseña incorrecta"
+
+#: ocean-popup-login.php:1068
+msgid "Login successful, reloading page..."
+msgstr "Sesión iniciada exitósamente, cargando página..."
+
+#: ocean-popup-login.php:1097 ocean-popup-login.php:1109
+msgid "Invalid username"
+msgstr "Usuario inválido"
+
+#: ocean-popup-login.php:1103
+msgid "Username already taken"
+msgstr "Usuario ya registrado"
+
+#: ocean-popup-login.php:1115
+msgid "Invalid email"
+msgstr "Correo electrónico inválido"
+
+#: ocean-popup-login.php:1121
+msgid "Email address already taken"
+msgstr "Correo electrónico ya registrado"
+
+#: ocean-popup-login.php:1127
+msgid "Please enter a password"
+msgstr "Por favor ingrese una contraseña"
+
+#: ocean-popup-login.php:1133
+msgid "Passwords do not match"
+msgstr "Contraseñas no coinciden"
+
+#: ocean-popup-login.php:1150
+msgid "Error on user creation."
+msgstr "Error al crear usuario"
+
+#: ocean-popup-login.php:1156
+msgid "Registration complete, reloading page..."
+msgstr "Registro completo, cargando página..."
+
+#: ocean-popup-login.php:1216
+msgid "Password Reset. Please check your email."
+msgstr "Contraseña restablecida. Checa tu correo electrónico."
+
+#: ocean-popup-login.php:1236
+msgid "Please enter a username or e-mail address."
+msgstr "Por favor ingrese un usuario o correo electrónico"
+
+#: ocean-popup-login.php:1240
+msgid "There is no user registered with that email address."
+msgstr ""
+"No hay ningún usuario registrado con esa dirección de correo electrónico."
+
+#: ocean-popup-login.php:1252
+msgid "Invalid username or e-mail."
+msgstr "Usuario o correo electrónico inválido"
+
+#: ocean-popup-login.php:1264
+msgid "Password reset is not allowed for this user"
+msgstr "Restablecer contraseña no está permitido para este usuario."
+
+#: ocean-popup-login.php:1282
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+"Alguien solicitó el restablecimiento de contraseña para la siguiente cuenta:"
+
+#: ocean-popup-login.php:1284
+#, php-format
+msgid "Username: %s"
+msgstr "Usuario: %s"
+
+#: ocean-popup-login.php:1285
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Si esto fue un error, simplemente ignora este correo electrónico y no pasará "
+"nada."
+
+#: ocean-popup-login.php:1286
+msgid "To reset your password, visit the following address:"
+msgstr "Para restablecer tu contraseña, visita la siguiente dirección:"
+
+#: ocean-popup-login.php:1295
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Contraseña restablecida"
+
+#: ocean-popup-login.php:1300
+msgid ""
+"The e-mail could not be sent. Possible reason: your host may have disabled "
+"the mail() function."
+msgstr ""
+"El correo electrónico no pudo ser enviado. Posible motivo: es posible que su "
+"host haya deshabilitado la función mail ()."
+
+#: template/popup.php:74
+msgid "Username"
+msgstr "Usuario"
+
+#: template/popup.php:81 template/popup.php:168
+msgid "Password"
+msgstr "Contraseña"
+
+#: template/popup.php:87
+msgid "Remember Me"
+msgstr "Mantener mi sesión activa"
+
+#: template/popup.php:92 template/popup.php:181 template/popup.php:239
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: template/popup.php:92 template/popup.php:254
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: template/popup.php:97
+msgid "Forgot your password? Get help"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: template/popup.php:109
+msgid "Or log in with"
+msgstr "O inicia sesión con"
+
+#: template/popup.php:120
+msgid "Not a member?"
+msgstr "¿No tienes cuenta?"
+
+#: template/popup.php:121
+msgid "Sign up"
+msgstr "Registrarse"
+
+#: template/popup.php:154
+msgid "Your username"
+msgstr "Usuario"
+
+#: template/popup.php:161
+msgid "Your email"
+msgstr "Correo electrónico"
+
+#: template/popup.php:175
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#: template/popup.php:181
+msgid "Register"
+msgstr "Crear cuenta"
+
+#: template/popup.php:195
+msgid "Or register with"
+msgstr "O regístrate con"
+
+#: template/popup.php:202
+msgid "Already a member?"
+msgstr "¿Ya tienes cuenta?"
+
+#: template/popup.php:203
+msgid "Sign in"
+msgstr "Iniciar sesión"
+
+#: template/popup.php:232
+msgid "Username or E-mail"
+msgstr "Usuario o correo electrónico"
+
+#: template/popup.php:239
+msgid "Send My Password"
+msgstr "Enviar mi contraseña"
+
+#: template/popup.php:244
+msgid "A password will be e-mailed to you."
+msgstr "Una contraseña te será enviada por correo."
+
+#: template/popup.php:253
+msgid "Back to"
+msgstr "Regresar a "
+
+#: template/popup.php:263
+msgid "Close"
+msgstr "Cerrar"
+

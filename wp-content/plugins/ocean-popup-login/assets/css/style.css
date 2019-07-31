@@ -1,0 +1,505 @@
+#opl-login-form {
+	display: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#opl-login-form,
+#opl-login-form .opl-overlay {
+	position: fixed;
+	z-index: 999; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#opl-login-form .opl-popup-block {
+	position: relative;
+	overflow: hidden; 
+	width: 500px;
+	max-width: 100%;
+	text-align: center;
+	color: #777;
+	border-radius: 3px;
+	background-color: #fff;
+}
+#opl-login-form .opl-login-wrap {
+	position: relative;
+	z-index: 1; 
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+#opl-login-form .opl-show {
+	display: block;
+}
+#opl-login-form .opl-hide {
+	display: none;
+}
+#opl-login-form .content-header,
+#opl-login-form .opl-wrap form,
+#opl-login-form .opl-social-login-wrap {
+	padding: 0 10%;
+}
+@media (min-width: 600px) {
+	#opl-login-form .content-header,
+	#opl-login-form .opl-wrap form,
+	#opl-login-form .opl-social-login-wrap {
+		padding: 0 20%;
+	}
+}
+#opl-login-form .content-header {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#opl-login-form .opl-wrap form {
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+#opl-login-form h3.opl-title {
+	font-size: 26px;
+	line-height: 1.2;
+	margin: 0 0 16px; 
+	text-transform: capitalize;
+}
+#opl-login-form .opl-intro {
+	font-size: 14px;
+	line-height: 1;
+}
+#opl-login-form .opl-errors {
+	display: none;
+	margin-bottom: 20px;
+}
+#opl-login-form .opl-errors .alert {
+	font-size: 11px;
+	line-height: 1.6; 
+	padding: 10px 30px;
+	color: #fff;
+	background-color: #222;
+}
+#opl-login-form .opl-errors .alert.alert-danger {
+	background-color: #e2401c;
+}
+#opl-login-form .opl-errors .alert.alert-danger a {
+	display: block;
+}
+#opl-login-form .opl-errors .alert.alert-success {
+	background-color: #3fc387;
+}
+#opl-login-form .opl-errors .alert a {
+	color: #fff;
+}
+#opl-login-form .opl-errors .alert a:hover {
+	text-decoration: underline; 
+	color: #fff;
+}
+#opl-login-form .opl-errors .alert p {
+	margin: 0;
+}
+#opl-login-form .input-wrap {
+	font-size: 15px;
+	font-weight: 400;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: left; 
+	color: #040404;
+}
+#opl-login-form .input-wrap .input-lg {
+	font-size: 15px;
+	position: relative;
+	height: 24px;
+	min-height: 24px;
+	margin: 0;
+	padding: 0;
+	color: #333 !important;
+	border: 0;
+	background-color: transparent !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#opl-login-form .input-wrap .input-lg:invalid {
+	font-style: italic;
+}
+#opl-login-form .input-wrap .input-lg:focus ~ .opl-label,
+#opl-login-form .input-wrap .input-lg:valid ~ .opl-label {
+	font-size: 11px;
+	top: -12px;
+	opacity: .6; 
+
+	-moz-opacity: .6;
+	-webkit-opacity: .6;
+}
+#opl-login-form .input-wrap .input-lg:focus ~ .opl-focus-line,
+#opl-login-form .input-wrap .input-lg:valid ~ .opl-focus-line {
+	-webkit-transform: scaleX(1);
+	-ms-transform: scaleX(1);
+	transform: scaleX(1); 
+	-webkit-animation: inputAddUnderline .3s cubic-bezier(.4, 0, .2, 1);
+	animation: inputAddUnderline .3s cubic-bezier(.4, 0, .2, 1);
+}
+#opl-login-form .input-wrap .opl-label {
+	font-size: 14px;
+	line-height: 1;
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease; 
+	text-align: left;
+	pointer-events: none;
+	color: #757575;
+}
+#opl-login-form .input-wrap .opl-line {
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 100%; 
+	height: 1px;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, .12);
+}
+#opl-login-form .input-wrap .opl-focus-line {
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	margin: 0;
+	padding: 0;
+	-webkit-transform: scaleX(0);
+	-ms-transform: scaleX(0);
+	transform: scaleX(0); 
+	-webkit-animation: inputRemoveUnderline .3s cubic-bezier(.4, 0, .2, 1);
+	animation: inputRemoveUnderline .3s cubic-bezier(.4, 0, .2, 1);
+	background-color: #13aff0;
+}
+#opl-login-form .input-wrap.opl-remember {
+	margin-bottom: 20px;
+}
+#opl-login-form .input-wrap.opl-remember label {
+	font-size: 14px;
+	display: inline-block;
+	margin: 0;
+	cursor: pointer;
+}
+#opl-login-form .opl-button {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1;
+	width: 100%;
+	height: auto;
+	padding: 16px;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease; 
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	border: 0;
+	border-radius: 0;
+	background-color: #13aff0;
+}
+#opl-login-form .opl-button:active,
+#opl-login-form .opl-button:hover {
+	background-color: #0b7cac;
+	-webkit-box-shadow: 1px 2px 2px rgba(0, 0, 0, .18);
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, .18);
+}
+#opl-login-form .opl-text {
+	font-size: 12px; 
+	display: block;
+	margin-top: 8px;
+}
+#opl-login-form .opl-bottom {
+	display: block;
+	padding: 20px 10px; 
+	background-color: #f6f6f6;
+}
+#opl-login-form .opl-bottom .text {
+	font-size: 14px;
+	line-height: 18px;
+	display: inline-block;
+	margin: 0 20px 0 0;
+	color: #000;
+}
+#opl-login-form .opl-bottom .opl-btn {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	display: inline-block;
+	padding: 12px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #1f1f1f;
+	border: 0;
+	border-radius: 3px; 
+	background-color: #fff;
+}
+#opl-login-form .opl-bottom .opl-btn:active,
+#opl-login-form .opl-bottom .opl-btn:focus,
+#opl-login-form .opl-bottom .opl-btn:hover {
+	-webkit-box-shadow: 1px 2px 2px rgba(0, 0, 0, .18);
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, .18);
+}
+#opl-login-form .opl-close-button {
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 40px;
+	position: absolute;
+	z-index: 1001; 
+	top: 8px;
+	right: 8px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	opacity: .5;
+	color: #333;
+}
+#opl-login-form .opl-close-button:hover {
+	opacity: 1;
+}
+#opl-login-form .opl-social-login-wrap {
+	margin: 0 0 20px;
+}
+#opl-login-form .wp-social-login-widget {
+	margin-botom: 0;
+}
+#opl-login-form .wp-social-login-connect-with {
+	display: none;
+}
+#opl-login-form .opl-social-title {
+	position: relative;
+	margin-bottom: 14px;
+}
+#opl-login-form .opl-social-title span {
+	position: relative;
+	z-index: 1; 
+	display: inline-block;
+	padding: 0 18px;
+	color: #808080;
+	background-color: #fff;
+}
+#opl-login-form .opl-social-title:after {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	margin-top: -1px; 
+	content: "";
+	background-color: #d8d8d8;
+}
+#opl-login-form .wp-social-login-provider-list a {
+	display: -webkit-inline-flex;
+	display: -ms-inline-flex;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	width: 44px;
+	min-width: 44px;
+	height: 44px;
+	margin: 0 3px;
+	padding: 0;
+	text-align: center;
+	border-radius: 50%;
+
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+}
+#opl-login-form .wp-social-login-provider-list a > span {
+	display: none;
+}
+#opl-login-form.has-background-image {
+	color: #fff; 
+	background-color: #000;
+}
+#opl-login-form.has-background-image h3.opl-title {
+	color: #fff;
+}
+#opl-login-form.has-background-image .input-wrap .opl-line {
+	background-color: rgba(255, 255, 255, .2);
+}
+#opl-login-form.has-background-image .input-wrap,
+#opl-login-form.has-background-image .opl-text a {
+	color: #757575;
+}
+#opl-login-form.has-background-image .opl-close-button {
+	color: #fff;
+}
+#opl-login-form.has-background-image .opl-bottom {
+	background-color: #111;
+}
+#opl-login-form.has-background-image .opl-bottom .text {
+	color: #fff;
+}
+#opl-login-form.has-background-image {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#opl-login-form.has-background-image:after {
+	position: absolute;
+	z-index: 0; 
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background-color: rgba(0, 0, 0, .1);
+}
+#opl-login-form.has-background-image .input-wrap .opl-line {
+	background-color: rgba(255, 255, 255, .7);
+}
+#opl-login-form.has-background-image .input-wrap .opl-label,
+#opl-login-form.has-background-image .input-wrap,
+#opl-login-form.has-background-image .opl-text a {
+	color: #fff;
+}
+#opl-login-form .opl-privacy {
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.opl-login-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 30px 8px; 
+	text-align: center;
+}
+.opl-login-container:before {
+	display: inline-block;
+	height: 100%;
+	content: "";
+	vertical-align: middle;
+}
+.opl-login-container .opl-login-content {
+	position: relative;
+	z-index: 1000;
+	display: inline-block;
+	max-width: 100%;
+	margin: 0 auto;
+	-webkit-transition: -webkit-transform .5s, opacity .3s;
+	transition: transform .5s, opacity .3s; 
+	-webkit-transform: translateY(-30px);
+	-ms-transform: translateY(-30px);
+	transform: translateY(-30px);
+	vertical-align: middle;
+	opacity: 0;
+}
+
+.is-visible .opl-login-container .opl-login-content {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0); 
+	opacity: 1;
+}
+
+.opl-overlay {
+	cursor: pointer; 
+	background-color: rgba(11, 11, 11, .8);
+}
+
+.g-recaptcha {
+	margin-bottom: 20px;
+}
+
+@-webkit-keyframes inputRemoveUnderline {
+	0% {
+		-webkit-transform: scaleX(1);
+		opacity: 1;
+	}
+	to {
+		-webkit-transform: scaleX(1);
+		opacity: 0;
+	}
+}
+
+@keyframes inputRemoveUnderline {
+	0% {
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+		opacity: 1;
+	}
+	to {
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes inputAddUnderline {
+	0% {
+		-webkit-transform: scaleX(0);
+	}
+	to {
+		-webkit-transform: scaleX(1);
+	}
+}
+
+@keyframes inputAddUnderline {
+	0% {
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+	}
+	to {
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+	}
+}
+
+/* RTL */
+body.rtl #opl-login-form .input-wrap {
+	text-align: right;
+}
+body.rtl #opl-login-form .input-wrap .opl-label {
+	right: 0;
+	left: auto;
+	text-align: right;
+}
+body.rtl #opl-login-form .input-wrap .opl-line {
+	right: 0;
+	left: auto;
+}
+body.rtl #opl-login-form .input-wrap .opl-focus-line {
+	right: 0;
+	left: auto;
+}
+
+body.rtl #opl-login-form .opl-close-button {
+	right: auto; 
+	left: 8px;
+}
+
+body.rtl #opl-login-form .opl-social-title:after {
+	right: 0;
+	left: auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 850px) {
+	.opl-login-container:before {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#opl-login-form .wp-social-login-provider-list a {
+		width: 100%;
+		min-width: 100%; 
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,449 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ocean Popup Login\n"
+"POT-Creation-Date: 2018-06-11 15:17+0200\n"
+"PO-Revision-Date: 2018-06-11 15:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ocean-popup-login.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ocean-popup-login.php:151 ocean-popup-login.php:160
+msgid "Cheatin&#8217; huh?"
+msgstr "Vals spelen hè?"
+
+#: ocean-popup-login.php:190 ocean-popup-login.php:192
+#: ocean-popup-login.php:194 ocean-popup-login.php:353 template/popup.php:32
+msgid "Log in"
+msgstr "Aanmelden"
+
+#: ocean-popup-login.php:191 ocean-popup-login.php:193
+#: ocean-popup-login.php:195 ocean-popup-login.php:369 template/popup.php:34
+msgid "Become a part of our community!"
+msgstr "Word een deel van onze gemeenschap!"
+
+#: ocean-popup-login.php:242
+msgid "Popup Login"
+msgstr "Popup Login"
+
+#: ocean-popup-login.php:256
+msgid "Position"
+msgstr "Positie"
+
+#: ocean-popup-login.php:257
+#, php-format
+msgid "If you choose Manual, check this %1$sdocumentation%2$s."
+msgstr "Als je Handmatig kies, lees dan deze %1$sdocumentatie%2$s."
+
+#: ocean-popup-login.php:262
+msgid "Menu"
+msgstr "Menu"
+
+#: ocean-popup-login.php:263
+msgid "Manual"
+msgstr "Handmatig"
+
+#: ocean-popup-login.php:276
+msgid "Logged In"
+msgstr "Ingelogd"
+
+#: ocean-popup-login.php:277
+msgid "Display this when user logged in."
+msgstr "Dit wordt weergegeven wanneer de gebruiker ingelogd is."
+
+#: ocean-popup-login.php:282
+msgid "Display nothing"
+msgstr "Niets weergeven"
+
+#: ocean-popup-login.php:283
+msgid "Logout link"
+msgstr "Logout link"
+
+#: ocean-popup-login.php:284
+msgid "Custom"
+msgstr "Aangepast"
+
+#: ocean-popup-login.php:298
+msgid "Custom Text"
+msgstr "Aangepaste tekst"
+
+#: ocean-popup-login.php:309 ocean-popup-login.php:1041
+#: ocean-popup-login.php:1085 ocean-popup-login.php:1484
+msgid "Sign in / Join"
+msgstr "Inloggen"
+
+#: ocean-popup-login.php:315
+msgid "Login Text"
+msgstr "Login tekst"
+
+#: ocean-popup-login.php:325 ocean-popup-login.php:1043
+#: ocean-popup-login.php:1086 ocean-popup-login.php:1485
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: ocean-popup-login.php:330
+msgid "Logout Text"
+msgstr "Log uit Tekst"
+
+#: ocean-popup-login.php:344
+msgid "Login Form"
+msgstr "Inlogformulier"
+
+#: ocean-popup-login.php:359 ocean-popup-login.php:404
+#: ocean-popup-login.php:449
+msgid "Title"
+msgstr "Titel"
+
+#: ocean-popup-login.php:375 ocean-popup-login.php:420
+#: ocean-popup-login.php:465
+msgid "Content"
+msgstr "Inhoud"
+
+#: ocean-popup-login.php:389
+msgid "Register Form"
+msgstr "Inschrijfformulier"
+
+#: ocean-popup-login.php:398 template/popup.php:36
+msgid "Create an account"
+msgstr "Maak een account aan"
+
+#: ocean-popup-login.php:414 template/popup.php:38
+msgid "Welcome! Register for an account"
+msgstr "Welkom! Registreer voor een account"
+
+#: ocean-popup-login.php:434
+msgid "Lost Password Form"
+msgstr "Wachtwoord vergeten"
+
+#: ocean-popup-login.php:443 template/popup.php:40
+msgid "Reset password"
+msgstr "Stel je wachtwoord opnieuw in"
+
+#: ocean-popup-login.php:459 template/popup.php:42
+msgid "Recover your password"
+msgstr "Herstel mijn wachtwoord"
+
+#: ocean-popup-login.php:479
+msgid "Styling"
+msgstr "Styling"
+
+#: ocean-popup-login.php:503
+msgid "Width (px)"
+msgstr "Breedte (px)"
+
+#: ocean-popup-login.php:585
+msgid "Padding (px)"
+msgstr "Padding (px)"
+
+#: ocean-popup-login.php:675
+msgid "Border Radius (px)"
+msgstr "Rand radius (px)"
+
+#: ocean-popup-login.php:708
+msgid "Background Image"
+msgstr "Achtergrondafbeelding"
+
+#: ocean-popup-login.php:727
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: ocean-popup-login.php:742
+msgid "Title Color"
+msgstr "Titelkleur"
+
+#: ocean-popup-login.php:757
+msgid "Content Color"
+msgstr "Kleur inhoud"
+
+#: ocean-popup-login.php:772
+msgid "Input Color"
+msgstr "Invoerkleur"
+
+#: ocean-popup-login.php:787
+msgid "Input Border Color"
+msgstr "Input randkleur"
+
+#: ocean-popup-login.php:802
+msgid "Input Border Focus Color"
+msgstr "Input Focus randkleur"
+
+#: ocean-popup-login.php:817
+msgid "Remember Me Color"
+msgstr "“Herinner mij\" kleur"
+
+#: ocean-popup-login.php:832
+msgid "Button Background Color"
+msgstr "Knopkleur achtergrond"
+
+#: ocean-popup-login.php:847
+msgid "Button Background Color Hover"
+msgstr "Knopkleur achtergrond (Hover)"
+
+#: ocean-popup-login.php:862
+msgid "Button Color"
+msgstr "Knopkleur"
+
+#: ocean-popup-login.php:877
+msgid "Forgot Password Color"
+msgstr "Vergeten wachtwoord kleur"
+
+#: ocean-popup-login.php:892
+msgid "Bottom Background Color"
+msgstr "Onderaan achtergrondkleur"
+
+#: ocean-popup-login.php:907
+msgid "Bottom Color"
+msgstr "Onderste kleur"
+
+#: ocean-popup-login.php:922
+msgid "Bottom Button Background Color"
+msgstr "Onderste knop achtergrondkleur"
+
+#: ocean-popup-login.php:937
+msgid "Bottom Button Color"
+msgstr "Onderste knopkleur"
+
+#: ocean-popup-login.php:951
+msgid "Bottom Button Background Color: hover"
+msgstr "Onderste knop achtergrondkleur (hover)"
+
+#: ocean-popup-login.php:965
+msgid "Bottom Button Color: hover"
+msgstr "Onderste knopkleur (hover)"
+
+#: ocean-popup-login.php:978
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: ocean-popup-login.php:979
+msgid "You need to select your Privacy Policy page in Settings > Privacy."
+msgstr "U moet je Privacy Policy-pagina selecteren in instellingen > Privacy."
+
+#: ocean-popup-login.php:993
+msgid "Color"
+msgstr "Kleur"
+
+#: ocean-popup-login.php:1007
+msgid "Color: Hover"
+msgstr "Kleur: Hover"
+
+#: ocean-popup-login.php:1141 ocean-popup-login.php:1181
+#: ocean-popup-login.php:1282
+msgid "Session token has expired, please reload the page and try again"
+msgstr ""
+"Sessie is verlopen, gelieve de pagina opnieuw te laden en probeer het opnieuw"
+
+#: ocean-popup-login.php:1146 ocean-popup-login.php:1287
+msgid "Please fill all form fields"
+msgstr "Vul alle velden in"
+
+#: ocean-popup-login.php:1155
+msgid "ERROR: Username or password incorrect!"
+msgstr "FOUT: Uw gebruikersnaam of wachtwoord zijn onjuist."
+
+#: ocean-popup-login.php:1157
+msgid "Login successful, reloading page..."
+msgstr "Login succesvol, pagina herladen..."
+
+#: ocean-popup-login.php:1187 ocean-popup-login.php:1199
+msgid "Invalid username"
+msgstr "Gebruikersnaam ongeldig"
+
+#: ocean-popup-login.php:1193
+msgid "Username already taken"
+msgstr "Deze gebruikersnaam bestaat al"
+
+#: ocean-popup-login.php:1205
+msgid "Invalid email"
+msgstr "Geen geldige e-mail"
+
+#: ocean-popup-login.php:1211
+msgid "Email address already taken"
+msgstr "E-mailadres is al in gebruik"
+
+#: ocean-popup-login.php:1217
+msgid "Please enter a password"
+msgstr "Voer een wachtwoord in"
+
+#: ocean-popup-login.php:1223
+msgid "Passwords do not match"
+msgstr "Wachtwoorden komen niet overeen"
+
+#: ocean-popup-login.php:1240
+msgid "Error on user creation."
+msgstr "Fout bij maken van gebruiker."
+
+#: ocean-popup-login.php:1246
+msgid "Registration complete, reloading page..."
+msgstr "Inschrijving voltooid, pagina herladen..."
+
+#: ocean-popup-login.php:1306
+msgid "Password Reset. Please check your email."
+msgstr "Wachtwoord Hersteld. Controleer je e-mail."
+
+#: ocean-popup-login.php:1326
+msgid "Please enter a username or e-mail address."
+msgstr "Vul een gebruikersnaam of e-mail adres in."
+
+#: ocean-popup-login.php:1330
+msgid "There is no user registered with that email address."
+msgstr "Er is geen gebruiker met dit e-mailadres geregistreerd."
+
+#: ocean-popup-login.php:1342
+msgid "Invalid username or e-mail."
+msgstr "Onbekende gebruikersnaam of e-mail."
+
+#: ocean-popup-login.php:1354
+msgid "Password reset is not allowed for this user"
+msgstr "Wachtwoord reset is niet toegestaan voor deze gebruiker"
+
+#: ocean-popup-login.php:1372
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+"Iemand heeft een wachtwoordwijziging aangevraagd voor het volgende account:"
+
+#: ocean-popup-login.php:1374
+#, php-format
+msgid "Username: %s"
+msgstr "Gebruikersnaam: %s"
+
+#: ocean-popup-login.php:1375
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Als dit een vergissing was of indien u heeft niet om deze e-mail heeft "
+"gevraagd, kunt u dit gewoon negeren. Uw inloggegevens zullen niet worden "
+"gewijzigd."
+
+#: ocean-popup-login.php:1376
+msgid "To reset your password, visit the following address:"
+msgstr "Om je wachtwoord opnieuw in te stellen, bezoek deze pagina:"
+
+#: ocean-popup-login.php:1385
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Wachtwoord opnieuw instellen"
+
+#: ocean-popup-login.php:1390
+msgid ""
+"The e-mail could not be sent. Possible reason: your host may have disabled "
+"the mail() function."
+msgstr ""
+"De e-mail kon niet worden verzonden. Mogelijke oorzaak: uw hosting service "
+"kan de mail() functie hebben uitgeschakeld."
+
+#: template/popup.php:73
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: template/popup.php:80 template/popup.php:172
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: template/popup.php:86
+msgid "Remember Me"
+msgstr "Onthoud mijn gegevens"
+
+#: template/popup.php:91 template/popup.php:185 template/popup.php:248
+msgid "Loading..."
+msgstr "Laden..."
+
+#: template/popup.php:91 template/popup.php:268
+msgid "Login"
+msgstr "Inloggen"
+
+#: template/popup.php:96
+msgid "Forgot your password? Get help"
+msgstr "Wachtwoord vergeten? Klik hier."
+
+#: template/popup.php:113
+msgid "Or log in with"
+msgstr "Of log in met"
+
+#: template/popup.php:124
+msgid "Not a member?"
+msgstr "Geen lid?"
+
+#: template/popup.php:125
+msgid "Sign up"
+msgstr "Inschrijven"
+
+#: template/popup.php:158
+msgid "Your username"
+msgstr "Je gebruikersnaam"
+
+#: template/popup.php:165
+msgid "Your email"
+msgstr "Je e-mail"
+
+#: template/popup.php:179
+msgid "Confirm Password"
+msgstr "Bevestig het wachtwoord"
+
+#: template/popup.php:185
+msgid "Register"
+msgstr "Registreer"
+
+#: template/popup.php:199
+msgid "Or register with"
+msgstr "Of Registreer met"
+
+#: template/popup.php:211
+msgid "Already a member?"
+msgstr "Bent je al lid?"
+
+#: template/popup.php:212
+msgid "Sign in"
+msgstr "Aanmelden"
+
+#: template/popup.php:241
+msgid "Username or E-mail"
+msgstr "Gebruikersnaam/e-mail:"
+
+#: template/popup.php:248
+msgid "Send My Password"
+msgstr "Verstuur mijn wachtwoord"
+
+#: template/popup.php:253
+msgid "A password will be e-mailed to you."
+msgstr "Er wordt een wachtwoord naar je gemaild."
+
+#: template/popup.php:267
+msgid "Back to"
+msgstr "Terug naar"
+
+#. Plugin Name of the plugin/theme
+msgid "Ocean Popup Login"
+msgstr "Ocean Popup Login"
+
+#. Plugin URI of the plugin/theme
+msgid "https://oceanwp.org/extension/ocean-popup-login/"
+msgstr "https://oceanwp.org/extension/Ocean-popup-login/"
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin to add a popup login, register and lost password form where you "
+"want."
+msgstr ""
+"Een plugin om een pop-up inlog, registreer of wachtwoordherstel formulier "
+"weer te geven waar je maar wil."
+
+#. Author of the plugin/theme
+msgid "OceanWP"
+msgstr "OceanWP"
+
+#. Author URI of the plugin/theme
+msgid "https://oceanwp.org/"
+msgstr "https://oceanwp.org/"

@@ -1,0 +1,27 @@
+= 1.0.6 =
+- Added: New setting which allow you to add a redirect for the logout link.
+- Tweak: Added support for the Nextend Social Login and Register plugin which allows you to login/register via your social media.
+
+= 1.0.5 =
+- Added: New settings to add a redirection after login or registration.
+- Added: German translation, thanks to Antal Hendrix.
+- Fixed: Issue if background image added to the popup.
+
+= 1.0.4 =
+- Added: Privacy Policy link for GDPR consent in forms, you need to select your Privacy Policy page in Settings > Privacy.
+- Added: Two new settings Login and Logout Texts so now you can add what you want for the login and lgout texts.
+- Added: Portuguese translation updated, thanks to Chagas Silva.
+
+= 1.0.3 =
+- Added: Estonian translation, thanks to Janek Tuttar.
+- Fixed: Login didn't work if SSL.
+
+= 1.0.2 =
+- Tweak: JS script improved, no need Magnific Popup anymore.
+- Tweak: Sign in/Sign up link added before the cart and search icons.
+
+= 1.0.1 =
+- Added: French translation, thank you very much to Julien Roussel.
+
+= 1.0.0 =
+- Initial release.
