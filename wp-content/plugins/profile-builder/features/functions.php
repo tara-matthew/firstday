@@ -128,8 +128,8 @@ if ( is_admin() ){
     add_shortcode( 'wppb-logout', 'wppb_front_end_logout' );
 
 	// include the menu file for the register screen
-	include_once( WPPB_PLUGIN_DIR.'/front-end/register.php' );        		
-	add_shortcode( 'wppb-register', 'wppb_front_end_register_handler' );	
+	//include_once( WPPB_PLUGIN_DIR.'/front-end/register.php' );
+	//add_shortcode( 'wppb-register', 'wppb_front_end_register_handler' );
 	
 	// include the menu file for the recover password screen
 	include_once( WPPB_PLUGIN_DIR.'/front-end/recover.php' );        		

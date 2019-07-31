@@ -156,6 +156,7 @@ function wppb_activate_signup( $key ) {
 }
 
 //function to display the registration page
+/*
 function wppb_front_end_register( $atts ){
 	extract( shortcode_atts( array( 'role' => get_option( 'default_role' ), 'form_name' => 'unspecified', 'redirect_url' => '', 'logout_redirect_url' => '', 'redirect_priority' => 'normal' ), $atts, 'wppb-register' ) );	
 	
@@ -164,11 +165,13 @@ function wppb_front_end_register( $atts ){
     return $form;
 }
 
+
 // function to choose whether to display the registration page or the validation message
 function wppb_front_end_register_handler( $atts ){
 
 	return ( isset( $_GET['activation_key'] ) ? wppb_activate_signup ( sanitize_text_field( $_GET['activation_key'] ) ) : wppb_front_end_register( $atts ) );
 }
+*/
 
 add_action( 'user_register', 'wppbc_disable_admin_approval_for_user_role', 99, 1 );
 function wppbc_disable_admin_approval_for_user_role( $user_id ) {

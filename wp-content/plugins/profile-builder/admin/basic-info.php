@@ -52,7 +52,7 @@ function wppb_basic_info_content() {
 				<p><?php printf( __( 'Friction-less login using %s shortcode or a widget.', 'profile-builder' ), '<strong class="nowrap">[wppb-login]</strong>' ); ?></p>
 			</div>
 			<div>
-				<h3><?php _e( 'Registration Form', 'profile-builder'  ); ?></h3>
+				<h3><?php _e( 'Registration Formmmm', 'profile-builder'  ); ?></h3>
 				<p><?php printf( __( 'Beautiful registration forms fully customizable using the %s shortcode.', 'profile-builder' ), '<strong class="nowrap">[wppb-register]</strong>' ); ?></p>
 			</div>
 			<div>
