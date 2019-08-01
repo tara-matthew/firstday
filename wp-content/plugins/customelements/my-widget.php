@@ -5,6 +5,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 class Widget_My_Custom_Elementor_Thing extends Widget_Base {
 
+    public function get_name() {
+        return ‘my-widget-name’;
+    }
+
     public function get_id() {
         return 'my-blog-posts';
     }
@@ -90,4 +94,4 @@ class Widget_My_Custom_Elementor_Thing extends Widget_Base {
 
 }
 
-Plugin::instance()->widgets_manager->register_widget( 'Elementor\Widget_My_Custom_Elementor_Thing' );
+Plugin::instance()->widgets_manager->register_widget_type( new Widget_My_Custom_Elementor_Thing() );
