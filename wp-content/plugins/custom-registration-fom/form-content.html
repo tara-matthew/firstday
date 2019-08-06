@@ -1,0 +1,47 @@
+<form action="' . $_SERVER['REQUEST_URI'] . '" method="post">
+    <div>
+        <label for="first-name">Nome<strong>*</strong></label>
+        <input type="text" name="first-name" value="' . ( isset( $_POST['first-name'] ) ? $firstName : null ) . '">
+    </div>
+
+    <div>
+        <label for="surname">Cognome<strong>*</strong></label>
+        <input type="text" name="surname" value="' . ( isset( $_POST['surname'] ) ? $surname : null ) . '">
+    </div>
+
+    <div>
+        <label for="password">Password <strong>*</strong></label>
+        <input type="password" name="password" value="' . ( isset( $_POST['password'] ) ? $password : null ) . '">
+    </div>
+
+    <div>
+        <label for="email">Email <strong>*</strong></label>
+        <input type="text" name="email" value="' . ( isset( $_POST['email']) ? $email : null ) . '">
+    </div>
+
+    <div>
+        <label for="website">Website</label>
+        <input type="text" name="website" value="' . ( isset( $_POST['website']) ? $website : null ) . '">
+    </div>
+
+    <div>
+        <label for="firstname">First Name</label>
+        <input type="text" name="fname" value="' . ( isset( $_POST['fname']) ? $first_name : null ) . '">
+    </div>
+
+    <div>
+        <label for="website">Last Name</label>
+        <input type="text" name="lname" value="' . ( isset( $_POST['lname']) ? $last_name : null ) . '">
+    </div>
+
+    <div>
+        <label for="nickname">Nickname</label>
+        <input type="text" name="nickname" value="' . ( isset( $_POST['nickname']) ? $nickname : null ) . '">
+    </div>
+
+    <div>
+        <label for="bio">About / Bio</label>
+        <textarea name="bio">' . ( isset( $_POST['bio']) ? $bio : null ) . '</textarea>
+    </div>
+    <input type="submit" name="submit" value="Register"/>
+</form>
