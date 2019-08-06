@@ -7,25 +7,73 @@
   Author URI: http://tech4sky.com
  */
 
-function registration_form_fields() {
+function employer_registration_form_fields() {
+    ob_start(); ?>
+    <h3>Employer reg</h3>
 
-    ob_start();
+    <form id="employer-registration">
+        <fieldset>
+            <div>
+                <label for="first-name">Nome<strong>*</strong></label>
+                <input type="text" name="first-name">
+            </div>
 
-    return ob_get_clean();
+            <div>
+                <label for="last-name">Cognome<strong>*</strong></label>
+                <input type="text" name="last-name">
+            </div>
+
+            <div>
+                <label for="role">Ruolo<strong>*</strong></label>
+                <input type="text" name="role">
+            </div>
+
+            <div>
+                <label for="company">Nome Azienda<strong>*</strong></label>
+                <input type="text" name="company">
+            </div>
+
+            <div>
+                <label for="headquarters">Sede<strong></strong></label>
+                <input type="text" name="headquarters">
+            </div>
+
+            <div>
+                <label for="phone-number">Numero di telefono<strong>*</strong></label>
+                <input type="text" name="phone-number">
+            </div>
+
+            <div>
+                <label for="email">Email<strong>*</strong></label>
+                <input type="text" name="email">
+            </div>
+
+            <div>
+                <label for="password">Password<strong>*</strong></label>
+                <input type="text" name="password">
+            </div>
+
+            <div>
+                <label for="confirm-password">Conferma password<strong>*</strong></label>
+                <input type="text" name="confirm-password">
+            </div>
+
+        </fieldset>
+    </form>
+
+    <?php return ob_get_clean();
 }
 
-add_shortcode('employer-registration-form', 'registration_form_fields');
+add_shortcode('employer-registration-form', 'employer_registration_form_fields');
 
-
-
-/*function registration_form($firstName, $lastName, $school, $course, $graduationYear, $email, $password, $confirmPassword) {
+/*function employer_registration_form($firstName, $lastName, $school, $course, $graduationYear, $email, $password, $confirmPassword) {
     //var_dump(is_page(1645));
     echo '
     <style>
     div {
         margin-bottom:2px;
     }
-     
+
     input{
         margin-bottom:4px;
     }
@@ -38,44 +86,44 @@ add_shortcode('employer-registration-form', 'registration_form_fields');
     <label for="first-name">Nome<strong>*</strong></label>
     <input type="text" name="first-name" value="' . ( isset( $_POST['first-name'] ) ? $firstName : null ) . '">
     </div>
-    
+
     <div>
     <label for="last-name">Cognome<strong>*</strong></label>
     <input type="text" name="last-name" value="' . ( isset( $_POST['last-name'] ) ? $lastName : null ) . '">
     </div>
-    
+
     <div>
     <label for="school">Scuola<strong>*</strong></label>
     <input type="text" name="school" value="' . ( isset( $_POST['school'] ) ? $school : null ) . '">
     </div>
-    
+
     <div>
     <label for="course">Corso studi<strong>*</strong></label>
     <input type="text" name="course" value="' . ( isset( $_POST['course'] ) ? $course : null ) . '">
     </div>
-    
+
     <div>
     <label for="graduation-year">Anno conseguimento titolo<strong></strong></label>
     <input type="text" name="graduation-year" value="' . ( isset( $_POST['graduation-year'] ) ? $graduationYear : null ) . '">
     </div>
-    
-        
+
+
     <div>
     <label for="email">Email<strong>*</strong></label>
     <input type="text" name="email" value="' . ( isset( $_POST['email'] ) ? $email : null ) . '">
     </div>
-    
+
     <div>
     <label for="password">Password<strong>*</strong></label>
     <input type="text" name="password" value="' . ( isset( $_POST['password'] ) ? $password : null ) . '">
     </div>
-    
+
     <div>
     <label for="confirm-password">Conferma password<strong>*</strong></label>
     <input type="text" name="confirm-password" value="' . ( isset( $_POST['confirm-password'] ) ? $confirmPassword : null ) . '">
     </div>
-    
-        
+
+
     <input type="submit" name="submit" value="Registrati"/>
     </form>
     ';
@@ -155,7 +203,7 @@ function custom_registration_function() {
         );
     }
 
-    registration_form(
+    employer_registration_form(
         $firstName,
         $lastName,
         $school,
@@ -200,7 +248,7 @@ function complete_registration() {
 }
 
 // Register a new shortcode: [cr_custom_registration]
-add_shortcode( 'cr_custom_registration', 'custom_registration_shortcode' );
+add_shortcode( 'employer_registration_form', 'custom_registration_shortcode' );
 
 // The callback function that will replace [book]
 function custom_registration_shortcode() {
