@@ -7,11 +7,12 @@
   Author URI: http://tech4sky.com
  */
 
-function employer_registration_form_fields() {
+function registration_form_fields() {
     ob_start(); ?>
     <h3>Employer reg</h3>
 
-    <form id="employer-registration">
+    <form action="<?=$_SERVER['REQUEST_URI']?>" id="employer-registration" method="post">
+        <input type="hidden" name="action" value="register_form">
         <fieldset>
             <div>
                 <label for="first-name">Nome<strong>*</strong></label>
@@ -58,13 +59,78 @@ function employer_registration_form_fields() {
                 <input type="text" name="confirm-password">
             </div>
 
+            <div>
+                <?php do_action('add_new_user') ?>
+                <input type="hidden" name="register-nonce" value="<?= wp_create_nonce('register-nonce'); ?>"/>
+                <input name="submit" type="submit" value="Register Your Account"/>
+            </div>
+
         </fieldset>
     </form>
 
     <?php return ob_get_clean();
 }
 
-add_shortcode('employer-registration-form', 'employer_registration_form_fields');
+function show_registration_form() {
+    $output = registration_form_fields();
+
+    return $output;
+}
+
+add_shortcode('employer-registration-form', 'show_registration_form');
+add_action('init','add_new_user');
+//var_dump($_POST); die();
+//add_action('register_form', 'add_new_user');
+//do_action('add_new_user');
+
+function add_new_user() {
+
+    if (isset($_POST['first-name'])) {
+        if (wp_verify_nonce($_POST['register-nonce'], 'register-nonce')) {
+                $user_login     = $_POST['first-name'] . '' . $_POST['last-name'];
+                $user_email     = $_POST['email'];
+                $user_first     = $_POST['first-name'];
+                $user_last      = $_POST['last-name'];
+                $user_pass      = $_POST['password'];
+                $pass_confirm   = $_POST['confirm-password'];
+                $role           = $_POST['role'];
+                $company        = $_POST['company'];
+                $headquarters   = $_POST['headquarters'];
+
+            //error handling here
+
+            $new_user_ID = wp_insert_user(array(
+                'user_login'        => $user_login,
+                'user_email'        => $user_email,
+                'user_pass'         => $user_pass,
+                'first_name'    	=> $user_first,
+                'last_name'		    => $user_last,
+                'user_registered'	=> date('Y-m-d H:i:s'),
+                'role'				=> 'subscriber',
+                'type'              => 'employer'
+            ));
+
+            $metas = array(
+                    'type'  => 'employer',
+                    'role'  => $role
+            );
+
+            //echo $new_user_ID; die();
+
+
+        } else {
+            echo 'failed'; die();
+        }
+    }
+
+}
+
+/*if (isset($_POST['submit'])) {
+    add_new_user();
+}*/
+
+//var_dump($_POST); die();
+//add_action('register_form', 'add_new_user');
 
 /*function employer_registration_form($firstName, $lastName, $school, $course, $graduationYear, $email, $password, $confirmPassword) {
     //var_dump(is_page(1645));
